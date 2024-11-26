@@ -55,8 +55,8 @@ Apply migrations.
 Start the development server at http://127.0.0.1:5000.
 
 
-###Project Structure
-
+### Project Structure
+```
 Template/
 ├── mainapp/                  # Contains the main application files
 │   ├── models.py             # Custom user model
@@ -73,4 +73,4 @@ Template/
 ├── .env                      # Configuration file (ignored by Git)
 └── .gitignore                # Git ignore file
 
-
+```
