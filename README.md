@@ -22,8 +22,10 @@ First, make sure to install all required packages:
 ```bash
 pip install -r requirements.txt
 ```
-###2. Create an .env File
+### 2. Create an .env File
 Create an `.env` file in the project's root directory and include the following configuration:
+```bash
+
 # Database Configuration
 DB_NAME=your_database_name
 DB_USER=your_database_user
@@ -35,8 +37,8 @@ DB_PORT=your_database_port
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
-
-###3. Use the Shell Script for Easy Setup (Windows)
+```
+### 3. Use the Shell Script for Easy Setup (Windows)
 To make migrations and running the project easier, a PowerShell script (`pyrun.ps1`) is provided. Follow these steps:
 
 Set up an alias for the script:
